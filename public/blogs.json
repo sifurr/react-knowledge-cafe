@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "cover": "https://i.ibb.co/QnhsHmL/young-woman-reading-textbook-home-library-generated-by-ai.jpg",
+    "title": "The Adventure of a Lifetime",
+    "author": "John Doe",
+    "author_img": "https://example.com/john_doe.jpg",
+    "posted_date": "2023-09-11",
+    "reading_time": 15,
+    "hashtags": ["adventure", "travel", "exploration"]
+  },
+  {
+    "id": 2,
+    "cover": "https://i.ibb.co/QnhsHmL/young-woman-reading-textbook-home-library-generated-by-ai.jpg",
+    "title": "Cooking Delights: A Culinary Journey",
+    "author": "Jane Smith",
+    "author_img": "https://example.com/jane_smith.jpg",
+    "posted_date": "2023-09-10",
+    "reading_time": 20,
+    "hashtags": ["cooking", "foodie", "recipes"]
+  },
+  {
+    "id": 3,
+    "cover": "https://i.ibb.co/QnhsHmL/young-woman-reading-textbook-home-library-generated-by-ai.jpg",
+    "title": "Tech Trends 2023",
+    "author": "David Wilson",
+    "author_img": "https://example.com/david_wilson.jpg",
+    "posted_date": "2023-09-09",
+    "reading_time": 10,
+    "hashtags": ["technology", "innovation", "trends"]
+  },
+  {
+    "id": 4,
+    "cover": "https://i.ibb.co/QnhsHmL/young-woman-reading-textbook-home-library-generated-by-ai.jpg",
+    "title": "Health and Wellness: Finding Balance",
+    "author": "Emily Brown",
+    "author_img": "https://example.com/emily_brown.jpg",
+    "posted_date": "2023-09-08",
+    "reading_time": 18,
+    "hashtags": ["health", "wellness", "balance"]
+  },
+  {
+    "id": 5,
+    "cover": "https://i.ibb.co/QnhsHmL/young-woman-reading-textbook-home-library-generated-by-ai.jpg",
+    "title": "The Art of Mindfulness",
+    "author": "Michael Johnson",
+    "author_img": "https://example.com/michael_johnson.jpg",
+    "posted_date": "2023-09-07",
+    "reading_time": 12,
+    "hashtags": ["mindfulness", "meditation", "selfcare"]
+  }
+]
