@@ -1,6 +1,7 @@
 import PropTypes from "prop-types";
+import { FaBookmark } from 'react-icons/fa';
 
-const Blog = ({ blog }) => {
+const Blog = ({ blog,handleAddToBookmark }) => {
   const { title, cover, 
     author, author_img, 
     posted_date, reading_time, 
@@ -8,15 +9,9 @@ const Blog = ({ blog }) => {
 
   console.log(blog);
   return (
-    <div>
-      <h1 className="text-4xl">{title}</h1>
-      <p>
-            {
-                hashtags.map((hashtag, idx) => <span key={idx}><a className="font-semibold" href="#">#{hashtag} </a></span> )
-            }
-      </p>
-      <img src={cover} alt={`cover picture of ${title}`} />
-      <div className="flex justify-between">
+    <div className="mb-20">      
+      <img className="w-full mb-8" src={cover} alt={`cover picture of ${title}`} />
+      <div className="flex justify-between mb-4">
         <div className="flex mt-2">
           <img className="w-16 h-16 object-cover rounded-full" src={author_img} alt="" />
           <div className="ml-6">
@@ -26,8 +21,15 @@ const Blog = ({ blog }) => {
         </div>
         <div>
           <span>{reading_time} min read</span>
+          <button onClick={()=>handleAddToBookmark(blog)} className="ml-2 text-2xl text-red-500"><FaBookmark></FaBookmark></button>
         </div>
       </div>
+      <h1 className="text-4xl mb-4">{title}</h1>
+      <p>
+            {
+                hashtags.map((hashtag, idx) => <span key={idx}><a className="font-semibold" href="#">#{hashtag} </a></span> )
+            }
+      </p>
     </div>
   );
 };
